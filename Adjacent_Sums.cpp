@@ -2,16 +2,16 @@
 using namespace std;
 #define ll long long
 int main() {
-    int t;
-    cin >> t;
-    while(t--){
+    int tc;
+    cin >> tc;
+    while(tc--){
         int n;
         cin >> n;
         vector<ll>a(n);
         for(int i=0; i<n; i++){
             cin >> a[i];
         }
-        vector<ll>dp(n);//i index porjnto good array banate minimum operation.
+        vector<ll>dp(n);
 
         dp[0]=a[0];
         for(int i=1; i<n; i++){
