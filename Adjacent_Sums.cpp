@@ -25,4 +25,5 @@ int main() {
         }
         cout << dp[n-1] << "\n";
     }
+    return 0;
 }
