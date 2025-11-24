@@ -126,7 +126,6 @@ int main() {
                 AB = AB * f1[(int)st] % h;
                 AB =AB* s1[j] %h;
             }
-
             ress = (ress+ AB) % h;
         }
 
